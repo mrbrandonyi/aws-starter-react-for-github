@@ -3,10 +3,10 @@ frontend:
   phases:
     test:
       commands:
-        - yarn test
+#        - yarn test
     preBuild:
       commands:
-#        - yarn install
+        - yarn install
     build:
       commands:
         - yarn run build
